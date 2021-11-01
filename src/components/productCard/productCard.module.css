@@ -1,0 +1,34 @@
+.card {
+    max-width: 350px;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 0;
+    border-radius: 15px;
+}
+
+.card img {
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card_container {
+    padding: 5px 20px;
+}
+
+.card_price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card_description {
+    height: 70px;
+    overflow: hidden;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to bottom, #000, #5b5b5b, rgba(0, 0, 0, 0));
+}

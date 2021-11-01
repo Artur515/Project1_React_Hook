@@ -1,0 +1,18 @@
+.basketCard {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    padding: 5px 0 0 0;
+    border-bottom: 2px solid black;
+}
+
+.basketCard img {
+    max-width: 100px;
+}
+
+.basketCard_delete {
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
