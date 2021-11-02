@@ -26,9 +26,6 @@ const App = () => {
     const [error, setError] = useState(null)
     const [loading, setLoading] = useState(false)
 
-
-    console.log(error)
-
     const getAllProductsWithApi = async () => {
         setLoading(true)
         try {
@@ -54,7 +51,7 @@ const App = () => {
     useEffect(() => {
         getAllProductsWithApi()
         getBasketProductsApi()
-// eslint-disable-next-line
+        // eslint-disable-next-line
     }, [])
 
     const handleSearch = (string) => {
@@ -88,7 +85,7 @@ const App = () => {
         }
         setTimeout(() => {
             setShowMessage(false)
-        }, 1000)
+        }, 1500)
     }
 
     const handleDeleteProductApi = async (id) => {

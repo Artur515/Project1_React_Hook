@@ -3,7 +3,7 @@ import ProductCard from "../productCard/ProductCard";
 import {myProductContext} from "../../App";
 import style from './productList.module.css'
 
-const ProductList = ({handleAddToBasket}) => {
+const ProductList = () => {
     const {products} = useContext(myProductContext)
 
     return (
