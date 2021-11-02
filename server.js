@@ -1,13 +1,13 @@
 const jsonServer = require('json-server');
 const server = jsonServer.create();
-const router = jsonServer.router('./db.json');
+const router = jsonServer.router('.src/db/db.json');
 const middlewares = jsonServer.defaults({
     static: './build'
 });
 const PORT = process.env.PORT || 8000;
 server.use(middlewares);
 server.use(jsonServer.rewriter({
-    '/api/*': '/$1',
+    '/data/*': '/$1', '/basket/*': '/$1'
 }))
 server.use(router);
 server.listen(PORT, () => {
