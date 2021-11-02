@@ -1,1 +1,1 @@
-export const BASE_API = 'https://project-hook-edition.herokuapp.com/api'
+export const BASE_API = 'https://project-hook-edition.herokuapp.com'
