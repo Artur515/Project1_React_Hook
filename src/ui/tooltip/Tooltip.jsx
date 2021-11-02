@@ -1,10 +1,14 @@
-import React from 'react';
+import React, {useContext} from 'react';
+import {myProductContext} from "../../App";
+import {customCountLength} from "../../helpers";
 import style from './tooltip.module.css'
 
 const Tooltip = () => {
+    const {basketProducts} = useContext(myProductContext)
+
     return (
         <div className={style.tooltip}>
-            1
+            {customCountLength(basketProducts)}
         </div>
     );
 };

@@ -1,9 +1,9 @@
 {
   "data": [
     {
-      "id": "1",
+      "id": 1,
       "title": "Beef",
-      "price": "12",
+      "price": 12,
       "image": "https://www.themealdb.com/images/category/beef.png",
       "ingredients": [
         "Meat",
@@ -12,9 +12,9 @@
       ]
     },
     {
-      "id": "2",
+      "id": 2,
       "title": "Chicken",
-      "price": "20",
+      "price": 20,
       "image": "https://www.themealdb.com/images/category/chicken.png",
       "ingredients": [
         "Meat",
@@ -23,9 +23,9 @@
       ]
     },
     {
-      "id": "3",
+      "id": 3,
       "title": "Dessert",
-      "price": "35",
+      "price": 35,
       "image": "https://www.themealdb.com/images/category/dessert.png",
       "ingredients": [
         "Meat",
@@ -34,9 +34,9 @@
       ]
     },
     {
-      "id": "4",
+      "id": 4,
       "title": "Lamb",
-      "price": "15",
+      "price": 15,
       "image": "https://www.themealdb.com/images/category/lamb.png",
       "ingredients": [
         "Meat",
@@ -45,9 +45,9 @@
       ]
     },
     {
-      "id": "5",
+      "id": 5,
       "title": "Miscellaneous",
-      "price": "10",
+      "price": 10,
       "image": "https://www.themealdb.com/images/category/miscellaneous.png",
       "ingredients": [
         "Meat",
@@ -60,9 +60,9 @@
       ]
     },
     {
-      "id": "6",
+      "id": 6,
       "title": "Pasta",
-      "price": "20",
+      "price": 20,
       "image": "https://www.themealdb.com/images/category/pasta.png",
       "ingredients": [
         "Meat",
@@ -71,9 +71,9 @@
       ]
     },
     {
-      "id": "7",
+      "id": 7,
       "title": "Pork",
-      "price": "30",
+      "price": 30,
       "image": "https://www.themealdb.com/images/category/pork.png",
       "ingredients": [
         "Sugar",
@@ -83,9 +83,9 @@
       ]
     },
     {
-      "id": "8",
+      "id": 8,
       "title": "Seafood",
-      "price": "22",
+      "price": 22,
       "image": "https://www.themealdb.com/images/category/seafood.png",
       "ingredients": [
         "Meat",
@@ -94,9 +94,9 @@
       ]
     },
     {
-      "id": "9",
+      "id": 9,
       "title": "Side",
-      "price": "35",
+      "price": 35,
       "image": "https://www.themealdb.com/images/category/side.png",
       "ingredients": [
         "Meat",

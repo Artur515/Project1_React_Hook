@@ -48,6 +48,7 @@ $contrast: darken($main, 10%);
   box-sizing: border-box;
   pointer-events: none;
   padding-top: 125px;
+  z-index: 10;
   transition: width 475ms ease-out, transform 450ms ease, border-radius .8s .1s ease;
   border-bottom-left-radius: 100vw;
   @include alpha-attribute('background-color', rgba($contrast, 0.8), #dadada);
@@ -168,6 +169,20 @@ label.hamburger {
   position: fixed;
   top: 25px;
   right: 25px;
-  max-width: 45px;
+  max-width: 55px;
   z-index: 1;
+}
+
+.drawer_text {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 40%;
+}
+
+.drawer_total {
+  position: absolute;
+  top: 25px;
+  color: white;
+  font-weight: bold;
 }
