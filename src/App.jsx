@@ -70,6 +70,9 @@ const App = () => {
                 const {data} = await postProductToBasket(newObj)
                 setBasketList([...basketList, data])
                 setShowMessage(true)
+                setTimeout(() => {
+                    setShowMessage(false)
+                }, 1500)
             } catch (error) {
                 setError(error.message)
             }
@@ -79,13 +82,14 @@ const App = () => {
                 await updateBasketProductWithId(updatedObj)
                 await getBasketProductsApi()
                 setShowMessage(true)
+                setTimeout(() => {
+                    setShowMessage(false)
+                }, 1500)
             } catch (e) {
                 setError(e.message)
             }
         }
-        setTimeout(() => {
-            setShowMessage(false)
-        }, 1500)
+
     }
 
     const handleDeleteProductApi = async (id) => {
