@@ -56,7 +56,7 @@ const App = () => {
 
     const handleSearch = (string) => {
         const searchResult = productList.filter((product) => {
-            return product.title.toLowerCase().substring(0, 4).includes(string)
+            return product.title.titletoLowerCase().startsWith(string) || product.title.toLowerCase().includes(string)
         })
         setFilteredList(searchResult)
     }
